@@ -25,8 +25,6 @@ class EntityNormalization(abc.ABC):
         '''
         pass
 
-    # Output
-    # format: entity_name, wikipedia_url, geolocation_url, boundary
     @classmethod
     @abc.abstractmethod
     def predict(cls, model: Model, test_set: list) -> list:
