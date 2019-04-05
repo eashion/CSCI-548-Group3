@@ -7,21 +7,21 @@ class EntityNormalization(abc.ABC):
 
     @classmethod
     @abc.abstractmethod
-    def read_dataset(self, file_names: list, url_names: list, split_ratio: tuple) -> list:
+    def read_dataset(cls, dataset_name: string, split_ratio: tuple, **kwargs) -> tuple:
         '''
-        :param file_names: a list of input file names (optional)
-        :param url_names: a list of input url_names (optional)
+        :param dataset_name: name of dataset
         :param split_ratio: (train_ratio, validation_ration, test_ratio)
+        :param kwargs: other parameters for specific model (optional)
         :return: train_data, valid_data, test_data
         '''
         pass
 
     @classmethod
     @abc.abstractmethod
-    def train(self, train_set: list) -> Model:
+    def train(cls, train_set: list) -> Model:
         '''
-        :param train_set: a list of train data
-        :return: a model trained on train_set
+        :param train_set: a list of training data
+        :return: trained model
         '''
         pass
 
@@ -29,20 +29,21 @@ class EntityNormalization(abc.ABC):
     # format: entity_name, wikipedia_url, geolocation_url, boundary
     @classmethod
     @abc.abstractmethod
-    def predict(self, model: Model, test_set: list) -> list:
+    def predict(cls, model: Model, test_set: list) -> list:
         '''
-        :param model: an object of Model Class
+        :param model: a trained model
         :param test_set: a list of test data
-        :return: a list of prediction, each with the format (entity_name, wikipedia_url, geolocation_url, boundary)
+        :return: a list of prediction, each item with the format
+        (entity_name, wikipedia_url, geolocation_url, boundary)
         '''
         pass
 
     @classmethod
     @abc.abstractmethod
-    def evaluate(self, model: Model, eval_set: list) -> tuple:
+    def evaluate(cls, model: Model, eval_set: list) -> tuple:
         '''
-        :param model: an object of Model Class
-        :param eval_set: a list of test data
+        :param model: a trained model
+        :param eval_set: a list of validation data
         :return: (precision, recall, f1 score)
         '''
         Pass
