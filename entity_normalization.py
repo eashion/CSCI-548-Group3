@@ -7,7 +7,7 @@ class EntityNormalization(abc.ABC):
 
     @classmethod
     @abc.abstractmethod
-    def read_dataset(cls, dataset_name: string, split_ratio: tuple, **kwargs) -> tuple:
+    def read_dataset(cls, dataset_name: string, split_ratio: tuple, *args) -> tuple:
         '''
         :param dataset_name: name of dataset
         :param split_ratio: (train_ratio, validation_ration, test_ratio)
@@ -32,7 +32,7 @@ class EntityNormalization(abc.ABC):
         :param model: a trained model
         :param test_set: a list of test data
         :return: a list of prediction, each item with the format
-        (entity_name, wikipedia_url, geolocation_url, boundary)
+        (entity_name, wikipedia_url(optional), geolocation_url(optional), geolocation_boundary(optional))
         '''
         pass
 
