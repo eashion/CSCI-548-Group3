@@ -1,0 +1,49 @@
+-DOCSTART- (1 EU)
+0	--NME--
+2	Germany	http://en.wikipedia.org/wiki/Germany	11867	/m/0345h
+6	United_Kingdom	http://en.wikipedia.org/wiki/United_Kingdom	31717	/m/07ssc
+9	--NME--
+11	Brussels	http://en.wikipedia.org/wiki/Brussels	3708	/m/0177z
+14	European_Commission	http://en.wikipedia.org/wiki/European_Commission	9974	/m/02q9k
+22	Germany	http://en.wikipedia.org/wiki/Germany	11867	/m/0345h
+28	United_Kingdom	http://en.wikipedia.org/wiki/United_Kingdom	31717	/m/07ssc
+43	Germany	http://en.wikipedia.org/wiki/Germany	11867	/m/0345h
+48	European_Union	http://en.wikipedia.org/wiki/European_Union	9317	/m/02jxk
+53	--NME--
+66	United_Kingdom	http://en.wikipedia.org/wiki/United_Kingdom	31717	/m/07ssc
+94	European_Commission	http://en.wikipedia.org/wiki/European_Commission	9974	/m/02q9k
+98	--NME--
+129	European_Union	http://en.wikipedia.org/wiki/European_Union	9317	/m/02jxk
+139	--NME--
+142	Franz_Fischler	http://en.wikipedia.org/wiki/Franz_Fischler	626779	/m/02y4y1
+172	--NME--
+174	--NME--
+179	United_Kingdom	http://en.wikipedia.org/wiki/United_Kingdom	31717	/m/07ssc
+181	France	http://en.wikipedia.org/wiki/France	5843419	/m/0f8l9c
+189	--NME--
+193	Bovine_spongiform_encephalopathy	http://en.wikipedia.org/wiki/Bovine_spongiform_encephalopathy	19344418	/m/0jy66
+201	--NME--
+209	--NME--
+237	Spain	http://en.wikipedia.org/wiki/Spain	26667	/m/06mkj
+240	Loyola_de_Palacio	http://en.wikipedia.org/wiki/Loyola_de_Palacio	6394317	/m/0g3rwc
+246	--NME--
+249	--NME--
+266	France	http://en.wikipedia.org/wiki/France	5843419	/m/0f8l9c
+268	United_Kingdom	http://en.wikipedia.org/wiki/United_Kingdom	31717	/m/07ssc
+270	--NME--
+275	--NME--
+314	Bovine_spongiform_encephalopathy	http://en.wikipedia.org/wiki/Bovine_spongiform_encephalopathy	19344418	/m/0jy66
+330	United_Kingdom	http://en.wikipedia.org/wiki/United_Kingdom	31717	/m/07ssc
+350	Germany	http://en.wikipedia.org/wiki/Germany	11867	/m/0345h
+357	United_Kingdom	http://en.wikipedia.org/wiki/United_Kingdom	31717	/m/07ssc
+363	Europe	http://en.wikipedia.org/wiki/Europe	9239	/m/02j9z
+382	Germany	http://en.wikipedia.org/wiki/Germany	11867	/m/0345h
+387	--NME--
+393	--NME--
+396	--NME--
+401	--NME--
+404	Bonn	http://en.wikipedia.org/wiki/Bonn	3295	/m/0150n
+420	United_Kingdom	http://en.wikipedia.org/wiki/United_Kingdom	31717	/m/07ssc
+438	Germany	http://en.wikipedia.org/wiki/Germany	11867	/m/0345h
+443	United_Kingdom	http://en.wikipedia.org/wiki/United_Kingdom	31717	/m/07ssc
+459	United_Kingdom	http://en.wikipedia.org/wiki/United_Kingdom	31717	/m/07ssc
